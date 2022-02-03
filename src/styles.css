@@ -2,12 +2,38 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.vanilla-weather-app {
+.vanilla-weather-app-wrapper {
   max-width: 600px;
   margin: 50px auto;
+}
+
+.vanilla-weather-app {
   padding: 50px;
   border: 1px solid #885df8;
-  border-radius: 7px;
+  border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-outlook img {
+  height: 64px;
+  margin-right: 5px;
+  width: 64px;
+}
+
+.weather-outlook strong {
+  color: #645fce;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-outlook .units {
+  font-size: 16px;
+  position: relative;
+  top: -34px;
 }
 
 h1 {
