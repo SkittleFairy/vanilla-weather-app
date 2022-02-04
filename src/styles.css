@@ -4,7 +4,7 @@ body {
 
 .vanilla-weather-app-wrapper {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .vanilla-weather-app {
@@ -55,4 +55,5 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 20px;
+  text-transform: capitalize;
 }
