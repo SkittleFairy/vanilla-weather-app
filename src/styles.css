@@ -36,6 +36,15 @@ body {
   top: -34px;
 }
 
+.weather-outlook .active {
+  color: #645fce;
+  cursor: default;
+}
+
+.weather-outlook .active:hover {
+  text-decoration: none;
+}
+
 h1 {
   color: #885df8;
   font-size: 24px;
