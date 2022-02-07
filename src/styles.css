@@ -1,16 +1,43 @@
+html {
+  height: 100%;
+}
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background: radial-gradient(
+    circle at 4.3% 10.7%,
+    rgb(138, 118, 249) 13.6%,
+    rgb(75, 252, 235) 100.7%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Inconsolata", monospace;
+  height: 100%;
+  margin: 0;
 }
 
 .vanilla-weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 100px auto;
 }
 
 .vanilla-weather-app {
-  padding: 50px;
-  border: 1px solid #885df8;
-  border-radius: 5px;
+  background-color: #f6f4ff;
+  border: 5px solid #fa86be;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+#city-input {
+  border-color: #fa86be;
+}
+
+.btn {
+  background-color: #fa86be;
+  border-color: #fa86be;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: #fa86be;
 }
 
 .overview {
@@ -24,20 +51,20 @@ body {
 }
 
 .weather-outlook strong {
-  color: #645fce;
+  color: #885df8;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
 }
 
 .weather-outlook .units {
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
-  top: -34px;
+  top: -25px;
 }
 
 .weather-outlook .active {
-  color: #645fce;
+  color: #885df8;
   cursor: default;
 }
 
@@ -47,10 +74,10 @@ body {
 
 h1 {
   color: #885df8;
-  font-size: 24px;
-  font-weight: 200;
-  line-height: 28px;
-  margin-bottom: 0;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 5;
 }
 
 ul {
@@ -61,8 +88,33 @@ ul {
 li {
   list-style: none;
   color: #885df8;
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: bolder;
   line-height: 20px;
   text-transform: capitalize;
+}
+
+p {
+  display: block;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#code-creator {
+  color: #4efaea;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#github-link {
+  color: #4efaea;
+  text-decoration: none;
+}
+
+#netlify-link {
+  color: #4efaea;
+  text-decoration: none;
 }
