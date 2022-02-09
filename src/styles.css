@@ -94,6 +94,25 @@ li {
   text-transform: capitalize;
 }
 
+.weather-forecast {
+  color: #0000;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-max {
+  opacity: 0.5;
+}
+
 p {
   display: block;
   font-family: "Inconsolata", monospace;
