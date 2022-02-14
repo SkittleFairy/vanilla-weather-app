@@ -15,7 +15,7 @@ body {
 }
 
 .vanilla-weather-app-wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: 100px auto;
 }
 
@@ -101,11 +101,17 @@ li {
 }
 
 .weather-forecast-date {
+  color: rgb(138, 118, 249);
   font-size: 16px;
   opacity: 0.5;
 }
 
+#forecast {
+  background-color: rgb(248, 233, 248, 0.75);
+}
+
 .weather-forecast-temperatures {
+  color: rgb(138, 118, 249);
   font-size: 13px;
 }
 
